@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My Product Catalog</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+    <link href='https://fonts.googleapis.com/css?family=Stylish' rel='stylesheet'>
+    
+</head>
+  <body>
+    <div id="header" class="logo">
+      <h1> PRODUCT CATALOG </h1>
+    </div>
+    
+    <div id="subheader">
+      <div class="cart"> <h1> Vision for a better outlook... </p> </div>
+    </div>
+      <div id="content">
+       <div id="sidebar">
+          <h1> <u> Categories </u> </h1>
+         <ul>
+           <li> <h2 onclick="watch()"> Watch </h2> </li>
+           <li><h2 onclick="ear_phone()"> Ear Phones </h2></li>
+         </ul>
+        </div>
+        
+        <div id="main" class="product-list">
+          <h1 id="cell"> Products </h1>
+          <table>
+            <tr>
+              <td>
+          <img id="detail">
+              </td>
+              <td>
+                <b> <i> <h1 id="detail_name" align="center" style="font-size:80px"> </h1></i> </b>
+                <h1 id="detail_category" align="justify" style="font-size:30px"> </h1>
+                <h1 id="detail_price" align="justify" style="font-size:30px"> </h1>
+                      <b> <p id="detail_text" align="justify" style="font-size:20px"></p> </b>
+              </td>
+            </tr>
+          </table>
+            <table>
+            <tr>
+              <td><img onclick="image_detail_cell1()" id="cell1" width=300 height=350 src="https://www.greatbuyz.com/blog/wp-content/uploads/2018/08/skullcandy.png"></td>
+              <td><img onclick="image_detail_cell2()" id="cell2" width=300 height=350 src="https://images-na.ssl-images-amazon.com/images/I/719D%2BJT0XRL._UY550_.jpg"></td>
+              <td><img onclick="image_detail_cell3()" id="cell3" width=300 height=350 src="https://images-na.ssl-images-amazon.com/images/I/71gdBQP%2BqGL._UY445_.jpg"></td></tr>
+              
+              <tr>
+                <td>  <h2 align="justify"> <p id="cell1_name">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Edifier </p>  <p id="cell1_category">&ensp;&ensp;&ensp;&ensp;Category:Earphone<p id="cell1_price"> &ensp;&ensp;&ensp;&ensp;Price: $200 </p></h2> </td>
+                <td>  <h2 align="justify"> <p id="cell2_name">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Megalith </p>  <p id="cell2_category">&ensp;&ensp;&ensp;&ensp;Category:Watch<p id="cell2_price"> &ensp;&ensp;&ensp;&ensp;Price: $600 </p></h2> </td>
+                <td>  <h2 align="justify"> <p id="cell3_name">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Redux </p>  <p id="cell3_category">&ensp;&ensp;&ensp;&ensp;Category:Watch<p id="cell3_price"> &ensp;&ensp;&ensp;&ensp;Price: $800 </p></h2> </td>
+             </tr>
+              
+            
+       
+                
+          </table>
+          
+        </div>
+        <script src="scripts/index.js"></script>
+        </body>
+      </html>
+    
